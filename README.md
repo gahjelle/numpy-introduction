@@ -1,6 +1,6 @@
 # Introduction to NumPy
 
-This repository contains material for the tutorial I presented at the [EuroSciPy 2022](https://www.euroscipy.org/2022/) conference in Basel.
+This repository contains material for the tutorial I presented at the [EuroSciPy 2023](https://www.euroscipy.org/2023/) conference in Basel.
 
 ## Topics
 
