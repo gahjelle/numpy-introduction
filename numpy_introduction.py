@@ -287,11 +287,11 @@ b = np.array([30, 15, 20])
 # Consider the equation $Ax = b$ which can be expressed as the following:
 #
 # $$
-# \begin{align}
+# \begin{align*}
 # u + 2 v &= 30 \\
 # 3u &= 15 \\
 # 2v &= 20
-# \end{align}
+# \end{align*}
 # $$
 #
 # Note that $x = (5, 10)$ or $u = 5$, $v = 10$ would be the solution to the system represented by the last two rows of $A$ and $b$. This is not consistent with the first row, so there is no exact solution to the equation $Ax = b$.
@@ -306,7 +306,7 @@ np.linalg.pinv(A) @ b
 np.linalg.lstsq(A, b, rcond=None)
 
 # %% [markdown]
-# See <RP> for more information.
+# See <https://realpython.com/python-linear-algebra/> for more information.
 
 # %% [markdown]
 # ## Broadcasting
@@ -362,4 +362,5 @@ A + x[:, np.newaxis]
 # %%
 A + x[np.newaxis, :]
 
-# %%
+# %% [markdown]
+# See <https://realpython.com/numpy-array-programming/> for more information about vectorized expressions and broadcasting.
